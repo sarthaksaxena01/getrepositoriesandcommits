@@ -50,3 +50,10 @@
         </div>
     </div>
 </div>
+
+<div *ngIf="!user">
+    <div class="wells well well-lg">
+        <span><p>Wrong username</p></span>
+        <a class="try" routerLink="/">Try again</a>
+    </div>
+</div>
