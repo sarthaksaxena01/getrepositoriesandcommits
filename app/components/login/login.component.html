@@ -1,0 +1,12 @@
+<div class="jumbotron jumbos">
+    <form class="form-inline">
+        <div class="form-group">
+            <span class="users">Username :</span> <input class="form-control" type="text" placeholder="Your username" [(ngModel)]="username" name="username">
+            <!--<button type="submit" class="btn btn-default" (click)="getUserInfo()">Login</button>-->
+            
+                <a class="btn btn-primary primarys" routerLink="/profile/{{username}}">Login</a>
+            
+        </div>
+    </form>
+</div>
+
